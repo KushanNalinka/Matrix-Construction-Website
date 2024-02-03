@@ -1,0 +1,109 @@
+<DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../CSS/firstPageCss.css">
+<script src="../JS/firstPageJs.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+input[type=submit]
+{background-color:green;
+	color:white;
+	border-radius:2px;
+	opacity:0.5;
+	
+}
+.input[type=submit]:hover{
+	background-color:white;
+	color:black;
+}
+input[type=text]
+{background-color:yellow;
+	color:blue;
+	border-radius:2px;
+	opacity:0.5;
+	
+}
+.input[type=text]:hover{
+	background-color:white;
+	color:black;
+}
+
+</style>
+</head>
+<body>
+<div class="full-page">
+        <div class="navbar">
+            <div>
+                <a href='../PHP/matrixFirstPage.php'>Matrix Solutions</a>
+            </div>
+            <nav>
+                <ul id='MenuItems'>
+                    <li><a href='home.html'>Home</a></li>
+                    <li><a href='aboutUs.html'>About Us</a></li>
+                    <li><a href='services.html'>Services</a></li>
+                    <li><a href='contactUs.html'>Contact</a></li>
+                    <li><button class='loginbtn' onclick="location.href='../PHP/login.php';" style="width:auto;">Login</button></li>
+                </ul>
+            </nav>
+			<div class="search"><form method="POST" action="../PHP/search.php">
+<input type="text" placeholder="Search..." name="search">
+<input type="submit" value="Search" name="btnSubmit">
+</form>
+</div>
+        </div>
+		</div>
+		<video width="100%" height="500px" autoplay muted loop  >
+<source src="../IMAGES/vidoe-mockup_3.mp4" type="video/mp4">
+</video>
+<button   class="bt1" name="btn1" onclick="loadData('btn1')">Buiding Construction</button>
+<button  class="bt2" name="btn2" onclick="loadData('btn2')">Civil Engineering</button>
+<button  class="bt3"  name="btn3" onclick="loadData('btn3')">Heavy Engineering</button>
+<div style="width:100%; height:300px; ">
+<div class= "image">
+<img class="buildingim" src="../IMAGES/buiding.jpg" id ="image1" alt="A building image" width="100%" height="300px">
+</div>
+<div class="content" id ="para" style="padding:15px;">
+<p>In the United States of America building engineering, also known as Architectural engineering is the application of engineering principles and technology to building design and construction. A building engineer is involved in planning, designing, constructing, operating, maintaining, supervising and renovating building structures. This includes airports, bridges, channels, dams, harbors, irrigation projects, pipelines, power plants, roads, railroads and water and sewage systems. However, designing an entire building is a huge task for a single person; architects work with civil and structural engineers to discuss technical issues and the structural integrity of a building.</p>
+</div>
+</div>
+<br/><br/>
+<br/><br/>
+<br/>
+<div class="divla1" style="width:30%; height:400px; float:right; margin-right:5%; border-radius:15px; padding:10px; box-sizing:border-box; background-image:url('../IMAGES/uk9.jpg'); background-size: cover; background-position: center;}">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<br/>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<br/>
+<a href="#" class="fa fa-pinterest"></a>
+<a href="#" class="fa fa-skype"></a>
+<a href="#" class="fa fa-android"></a>
+
+</div>
+<div class="divla2"style="width:25%; height:400px; float:left; margin-left:5%; border-radius:15px; box-sizing:border-box; background-image:url('../IMAGES/as17.jpg');">
+<img  src="../IMAGES/certificate.jpg" width="100%" height="200px">
+</div>
+<div class="divla3"style="width:25%; height:400px; margin:0 auto;  margin-left:35%; margin-right:40%; border-radius:15px; padding:5px; box-sizing:border-box; background-image:url('../IMAGES/as13.jpg');">
+<ul class="menu">
+<li><a href='#'>Home</a></li>
+<br/><br>
+ <li><a href='#'>About Us</a></li>
+ <br/><br>
+ <li><a href='#'>Services</a></li>
+ <br/><br>
+ <li><a href='#'>Contact</a></li>
+</ul>
+<img src="../IMAGES/mc1.png" width="50%" height="80px" style="margin-left:80px; border-radius:15px;"><br/>
+<br/><h3><center><i><p >The Monarch of the Construction Kigdom</p></i></center></h3>
+</div>
+<br/>
+<hr/>
+<br/>
+<div style="width:100%; height:80px; background-color:#191970;">
+<center><b><?php echo date("Y"); ?><p style="color:white;">MATRIX  CONSTRUCTIONS  PLC  All Rights Reserved  | <span><a href="#"style="color:white; text-decoration:none;">WebWorldWide</a></span>  | <span><a href="#"style="color:white; text-decoration:none;">Feedbacks</a></span></p></b></center>
+</div>
+</body>
+</html>

@@ -1,0 +1,250 @@
+/*MY OWN CODE IMPLEMENTATION*/
+/*.sub-menu1 ul
+{
+	display:none;
+	position:absolute;
+	background:yellow;
+	margin-top:15px;
+	margin-left:-15px;
+}
+
+ .sub-menu1 ul li
+{
+	display:block;
+	width:150px;
+	padding:10px;
+	border-bottom:1px dotted #fff;
+	background::transparent;
+	border-radius:0;
+	text-align:left;
+}
+.sub-menu1 ul li:last-child
+{
+	border-bottom:none;
+	
+}.menu-bar li:hover .sub-menu1 ul
+{
+	display:block;
+	
+}*/
+/* ON PENDING DECISION */
+/*.sub
+{
+	display:none;
+	position:absolute;
+	background:yellow;
+	margin-top:15px;
+	margin-left:-15px;
+}
+
+ .sub li
+{
+	display:block;
+	width:150px;
+	padding:10px;
+	border-bottom:1px dotted #fff;
+	background::transparent;
+	border-radius:0;
+	text-align:left;
+}
+.sub li:last-child
+{
+	border-bottom:none;
+	
+}.menu-bar li:hover .sub
+{
+	display:block;
+	
+} */
+.insert{
+	width:500px;
+	height:700px;
+	margin: 0 auto;
+	background-color:black;
+	color:yellow;
+	border-radius:15px;
+	border-style:double;
+	border-width:15px;
+	border-color:red;
+	padding:10px;
+}
+.btn{
+	background-color:green;
+	color:white;
+	padding:15px;
+	border-radius:12px;
+	width:50%;
+	opacity:0.5;
+}
+.btn:hover{
+	background-color:white;
+	color:black;
+}
+.namedivcon{
+	 animation-name: example1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example1 {
+  0%   {background-color:#00FFFF; left:0px; top:0px;}
+  25%  {background-color:#DC143C; left:200px; top:0px;}
+  50%  {background-color:#00008B; left:200px; top:200px;}
+  75%  {background-color:#9400D3; left:0px; top:200px;}
+  100% {background-color:#1E90FF; left:0px; top:0px;}
+}
+
+.newsim1{
+	float:right;
+	width:25%;
+	height:330px;
+	margin-right:5%;
+	
+}
+.newsim2{
+	float:left;
+	width:25%;
+	height:330px;
+	margin-left:5%;
+	
+}
+.newsdes{
+	margin:0 auto;
+	width:30%;
+	height:330px;
+	background-color:yellow;
+	margin-left:35%;
+	margin-right:35%;
+	border-radius:15px;
+}
+.bt1{
+	float:left;
+	width:33.33%;
+	height:50px;
+	
+}
+.bt2{
+	margin: 0 auto;
+	width:33.33%;
+	height:50px;
+	
+}
+.bt3{
+	float:right;
+	width:33.33%;
+	height:50px;
+	
+}
+div.image
+{
+	width:50%;
+	float:left;
+	
+}
+ div.content{
+	 width:50%;
+	 float:right;
+	 background-color:blue;
+	 height:300px;
+}
+.logo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.di1{
+	float:right;
+	width:33.33%;
+	height:400px;
+	background-image:url("../IMAGES/div1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.di2{
+	float:left;
+	width:33.33%;
+	height:400px;
+	background-image:url("../IMAGES/div2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.di3{
+	margin:0 auto;
+	width:33.33%;
+	height:400px;
+	background-image:url("../IMAGES/div3.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.di4{
+	float:right;
+	width:33.33%;
+	height:400px;
+	background-image:url("../IMAGES/div4.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.di5{
+	float:left;
+	width:33.33%;
+    height:400px;
+	background-image:url("../IMAGES/div5.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.di6{
+	margin:0 auto;
+	width:33.33%;
+	height:400px;
+	background-image:url("../IMAGES/div6.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}

@@ -1,0 +1,288 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>Contact Us page of Matrix Constructions PLC</title>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page
+{
+  /*  height: 100%;*/
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/bg-2.jpg);
+	background-position: center;
+	background-size: cover;
+	/*position: absolute;*/
+}
+.navbar
+{
+    display: flex; 
+/* display:inline-flex; */
+    align-items: center;
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 5px;
+    padding-top: 50px;
+}
+nav
+{ 
+    flex: 1; 
+    text-align: right; 
+  
+}
+nav ul 
+{
+
+    list-style: none;
+}
+nav ul li
+{
+
+   display: inline-block; 
+    margin-right: 70px;
+}
+.search{
+ display:inline-flex;
+ float:right;
+ 
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: aqua;
+}
+nav ul li a:hover
+{
+    color: aqua;
+}
+a
+{
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 28px;
+}
+.divla1{
+	background-image:url("../IMAGES/as18.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.divla2{
+	background-image:url("../IMAGES/as17.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.divla3{
+	background-image:url("../IMAGES/as13.jpg");
+	background-position: center;
+	background-size: cover;
+}
+input[type=submit]
+{background-color:green;
+	color:white;
+	border-radius:2px;
+	opacity:0.5;
+	
+}
+.input[type=submit]:hover{
+	background-color:white;
+	color:black;
+}
+input[type=text]
+{background-color:yellow;
+	color:blue;
+	border-radius:2px;
+	opacity:0.5;
+	
+}
+.input[type=text]:hover{
+	background-color:white;
+	color:black;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+</style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<div class="full-page">
+        <div class="navbar">
+            <div>
+                <a href='../PHP/matrixFirstPage.php'>Matrix Construction</a>
+            </div>
+            <nav>
+                <ul id='MenuItems'>
+                    <li><a href='home.html'>Home</a></li>
+                    <li><a href='aboutUs.html'>About Us</a></li>
+                    <li><a href='services.html'>Services</a></li>
+                    <li><a href='contactUs.html'>Contact</a></li>
+                    <li><button class='loginbtn' onclick="location.href='../PHP/login.php';" style="width:auto;">Login</button></li>
+                </ul>
+            </nav>
+			<div class="search"><form action="../PHP/search.php">
+<input type="text" placeholder="Search..." name="search">
+<input type="submit" value="Search" name="btnSubmit">
+</form>
+</div>
+        </div>
+		</div>
+<h1><b><p style="color:blue;"> WELCOME TO CONTACT US </p></b></h1>
+<br/>
+<center><h2><b> GENERAL INQUIRY </b></h2></center>
+<div  class ="main1" style="width:100%; height:700px;">
+<div style="width:50%; height:700px; float:right;">
+<form method="POST" action="action.php">
+Name <br/>
+<input type="text" name="name" >
+<br/>
+Email <br/>
+<input type="email" name="email" >
+<br/>
+Telephone <br/>
+<input type="phone" name="phoneNo" >
+<br/>
+Inquiry <br/>
+<textarea rows="5" cols="70" name="inquiry"></textarea>
+<br/>
+Question <br/>
+<textarea rows="10" cols="70" name="inquiry"></textarea>
+<br/>
+<br/>
+<input type="submit" Value="Submit" name="submitBtn">
+</form>
+</div>
+
+<div style="width:50%; height:700px; float:left; background-image:url('../IMAGES/as8.jpeg'); background-position: center;
+	background-size: cover;">
+</div>
+</div>
+<br/>
+<center><h2><b> FOR VENDOR REGISTRATION PLEASE CONTACT THE FOLLOWING </b></h2></center>
+<div  class ="main2" style="width:100%;  height:700px;">
+<div style="width:50%; height:700px; float:right;height:700px; background-image:url('../IMAGES/a6.jpg'); background-position: center;
+	background-size: cover;">
+</div>
+<div style="width:50%; height:700px; float:left;">
+<form method="POST" action="action.php">
+Name <br/>
+<input type="text" name="name" >
+<br/>
+Email <br/>
+<input type="email" name="email" >
+<br/>
+Telephone <br/>
+<input type="phone" name="phoneNo" >
+<br/>
+Inquiry <br/>
+<textarea rows="5" cols="70" name="inquiry"></textarea>
+<br/>
+Question <br/>
+<textarea rows="10" cols="70" name="inquiry"></textarea>
+<br/>
+<br/>
+<input type="submit" Value="Submit" name="submit_Btn">
+</form>
+</div>
+</div>
+<br/><br/><br/>
+<div class="divla1" style="width:30%; height:400px; float:right; margin-right:5%; border-radius:15px; padding:10px; box-sizing:border-box; background-image:url('../IMAGES/uk9.jpg'); background-size: cover; background-position: center;}">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<br/>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<br/>
+<a href="#" class="fa fa-pinterest"></a>
+<a href="#" class="fa fa-skype"></a>
+<a href="#" class="fa fa-android"></a>
+
+</div>
+<div class="divla2"style="width:25%; height:400px; float:left; margin-left:5%; border-radius:15px; box-sizing:border-box; background-image:url('../IMAGES/as17.jpg');">
+<img  src="../IMAGES/certificate.jpg" width="100%" height="200px">
+</div>
+<div class="divla3"style="width:25%; height:400px; margin:0 auto;  margin-left:35%; margin-right:40%; border-radius:15px; padding:5px; box-sizing:border-box; background-image:url('../IMAGES/as13.jpg');">
+<ul style="list-style:none;">
+<li><a " style = 'text-decoration:none;'" href='#'>Home</a></li>
+<br/><br>
+ <li><a " style = 'text-decoration:none;'" href='#'>About Us</a></li>
+ <br/><br>
+ <li><a " style = 'text-decoration:none;'" href='#'>Services</a></li>
+ <br/><br>
+ <li><a " style = 'text-decoration:none;'" href='#'>Contact</a></li>
+</ul>
+<img src="../IMAGES/mc1.png" width="50%" height="80px" style="margin-left:80px; border-radius:15px;"><br/>
+<br/><h3><center><i><p >The Monarch of the Construction Kigdom</p></i></center></h3>
+</div>
+<br/>
+<div style="width:100%; height:80px; background-color:#191970;">
+<center><b><?php echo date("Y"); ?><p style="color:white;">MATRIX  CONSTRUCTIONS  PLC  All Rights Reserved  | <span><a href="#"style="color:white; text-decoration:none;">WebWorldWide</a></span>  | <span><a href="#"style="color:white; text-decoration:none;">Feedbacks</a></span></p></b></center>
+</div>
+</body>
+</html>

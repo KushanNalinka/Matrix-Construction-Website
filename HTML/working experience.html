@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>CMS</title>
+  <link  rel="stylesheet"href="../CSS/stylesheet.css"  >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  .navigation{
+	display:inline-flex;
+	width:100%;
+	height:auto;
+	background-color:green;
+	
+}
+.navbar{
+	
+	display:inline-flex;
+	 text-align:center;
+	 margin-top:30px;
+	 margin-bottom:30px;
+	 margin-left:30px;
+}
+.menu-bar
+{
+	/*display:inline-flex;*/
+}
+.menu-bar ul
+{
+	align-items: center;
+	display:inline-flex;
+	list-style:none;
+	color:white;
+}
+.menu-bar ul li 
+{
+	padding:15px;
+	margin:15px;
+}
+.profile{
+	display:inline-flex;
+	float:right;
+	 margin-top:30px;
+	 margin-bottom:20px;
+	 margin-left:30px;
+}
+ .fa-user:hover {
+  background-color: #000;
+}
+ .fa-user {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  transition: all 0.3s ease;
+  color: white;
+ 
+}
+	
+.search{
+	display:inline-flex;
+	
+	float:right;
+	 margin-top:50px;
+	 margin-bottom:30px;
+	 margin-left:50px;
+}
+ .menu-barul li button
+ {
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+ .menu-bar ul li button:hover
+{
+    color: aqua;
+}
+
+.menu-bar ul li a
+{
+	
+	text-decoration:none;
+	color:white;
+}
+.menu-bar ul li.active , .menu-bar ul li:hover
+{
+	background:#2bab0d;
+	border-radius:3px;
+}
+.sub-menu1 
+{
+	display:none;
+}
+.menu-bar ul li:hover .sub-menu1 
+{
+	display:block;
+	position:absolute;
+	background:rgb(0,100,0);
+	margin-top:15px;
+	margin-left:-15px;
+	
+}
+.menu-bar li:hover .sub-menu1 ul
+{ 
+  display:block;
+
+}
+.menu-bar li:hover .sub-menu1 ul li
+{
+	width:170px;
+	padding:4px;
+	border-bottom:1px dotted #fff;
+	background::transparent;
+	border-radius:0;
+	text-align:left;
+	margin-right:45px;
+	
+}
+.menu-bar li:hover .sub-menu1 ul li:last-child
+{
+	border-bottom:none;
+	
+}
+  </style>
+</head>
+
+<body>
+<div class="navigation">
+ <div class="navbar">
+           
+                <p>Matrix </p>
+            </div>
+<div class="menu-bar">
+<ul>
+<li class="active" ><a href ="#">About Us</a>
+<div class="sub-menu1">
+<ul class="sub">
+<li><a href="../HTML/history.html">History</a></li>
+<li><a href="../HTML/vision and mission.html">Mission & Vision</a></li>
+<li><a href="../PHP/userAwards.php">Aword & Certifications</a></li>
+<li><a href="../PHP/userManagement.php">Management</a></li>
+</ul>
+</div></li>
+<li><a href ="#">Services</a>
+<div class="sub-menu1">
+<ul class="sub">
+<li><a href="../PHP/userManufacturing.php">Manufacturing</a></li>
+<li><a href="../PHP/userHeavyEngineering.php">Heavy Engineering</a></li>
+<li><a href="../PHP/userEngineer.php">Engineer Teams</a></li>
+<li><a href="../PHP/userWorker.php">Workers & Technicians</a></li>
+
+</ul>
+</div>
+</li>
+<li><a href ="#">Financial</a><div class="sub-menu1">
+<ul class="sub">
+<li><a href="../HTML/annual report.html">Anual Report</a></li>
+<li><a href="../HTML/statics and trading.html">Statistic & Trading</a></li>
+<li><a href="../HTML/insurence and law.html">Insurance & Law</a></li>
+</ul>
+</div></li>
+
+<li><a href ="#">Resources</a><div class="sub-menu1">
+<ul class="sub">
+<li><a href="../HTML/working experience.html">Working Experience</a></li>
+<li><a href="../HTML/what we offer.html">What we Offer</a></li>
+<li><a href="../PHP/userTraining.php">Training & Opportunities</a></li>
+</ul>
+</div></li>
+<li><a href ="../PHP/userProjects.php">Project</a>
+</li>
+<li><a href="../PHP/logoff.php" >LogOut</a></li>
+</ul>
+</div>
+<div class="profile">
+<a href="../PHP/resetPassword.php"><i class="fa fa-user" style="font-size:36px"></i></a>
+</div>
+<div class="search"><form method="POST" action="../PHP/search.php">
+<input type="text" placeholder="Search..." name="search">
+<input type="submit" value="Search" name="btnSubmit">
+</form>
+</div>
+
+</div>
+<br/>
+<section class = header>
+  <div class="text-box">
+    <h1>working experience</h1>
+    <p></p>
+</section>
+<section class="cta">
+    <h1>with a human resource perspective that is both unique and powerful, a link is established between employee commitment, customer requirements and stakeholder intersts.</h1><br>
+	<h1>our endevor is to make the company economically stable, socially responsible, organizationally loyal, internally disciplined,technically competent, functionally acknowledgeable and equipped with shared goals to play a lead role in the organizational human resource transformation process.</h1>
+    
+  </section>
+  <section class="campus">
+    <h1>Our experienced mambers</h1>
+    <p></p>
+    <div class="row">
+      <div class="campus-col">
+        <img src= "images/a.jpg">
+        <div class= "layer">
+          <h3>financial team</h3>
+        </div>
+      </div>
+            <div class="campus-col">
+        <img src= "images/a1.jpg">
+        <div class= "layer">
+          <h3>safety manager</h3>
+        </div>
+      </div>
+            <div class="campus-col">
+        <img src= "images/a2.jpg">
+        <div class= "layer">
+          <h3>cheif engineer</h3>
+        </div>
+      </div>
+    </div>
+    
+  </section>
